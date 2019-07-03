@@ -1,0 +1,19 @@
+#apps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    .app {
+        flex-basis: 450px;
+        text-align: center;
+        margin-bottom: 10px;
+        text-overflow: ellipsis;
+
+        button {
+            display: block;
+            margin: 5px auto;
+            padding: 3px 12px;
+        }
+    }
+}
